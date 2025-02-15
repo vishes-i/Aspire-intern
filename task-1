@@ -1,0 +1,3990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./ecommerce.css" />
+    <link
+            href="ahttps://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+            rel="stylesheet"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<STYLE>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial,sans-serif;
+
+    }
+
+    .price {
+        color: grey;
+        font-size: 22px;
+    }
+
+    .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .card button:hover {
+        opacity: 0.7;
+    }
+</STYLE>
+<body>
+<header>
+    <div class="logo"><a href="#">E-COMMERCE</a></div>
+    <div class="menu">
+        <a href=""><ion-icon name="close" class="close"></ion-icon></a>
+        <ul>
+            <li><a href="product.html" class="under">HOME</a></li>
+            <li><a href="account.html" class="under">SHOP</a></li>
+            <li><a href="cart.html" class="under">OUR PRODUCTS</a></li>
+            <li><a href="index.html" class="under">CONTACT US</a></li>
+            <li><a href="about.html" class="under">ABOUT US</a></li>
+        </ul>
+    </div>
+    <div class="search">
+        <a href=""
+        ><label for="input"></label><input
+                type="text"
+                placeholder="search products"
+                id="input"
+                width="400px"
+                height="60px"
+
+        />
+            <ion-icon class="s" name="search"></ion-icon>
+        </a>
+    </div>
+    <div class="heading">
+        <ul>
+            <li><a href="" class="under">HOME</a></li>
+            <li><a href="account.html" class="under">SHOP</a></li>
+            <li><a href=" cart.html" class="under">OUR PRODUCTS</a></li>
+            <li><a href="index.html" class="under">CONTACT US</a></li>
+            <li><a href="about.html" class="under">ABOUT US</a></li>
+        </ul>
+    </div>
+    <div class="heading1">
+        <ion-icon name="menu" class="ham"></ion-icon>
+    </div>
+</header>
+<section STYLE="background-image: url('https://png.pngtree.com/background/20210714/original/pngtree-technology-web-banner-style-background-design-picture-image_1246232.jpg')">
+    <div class="section">
+        <div class="section1">
+            <div class="img-slider">
+                <img
+                        src="https://images.pexels.com/photos/6347888/pexels-photo-6347888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt=""
+                        class="img"
+                />
+                <img
+                        src="https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt=""
+                        class="img"
+                />
+                <img
+                        src="https://images.pexels.com/photos/2292953/pexels-photo-2292953.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                        alt=""
+                        class="img"
+                />
+                <img
+                        src="https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt=""
+                        class="img"
+                />
+                <img
+                        src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        alt=""
+                        class="img"
+                />
+            </div>
+        </div>
+        <h1 STYLE="background-color: #1BBFE9;padding: 15px;margin-top: 200px;text-align: center">MAIN STORE</h1>
+        <div class="section2" >
+            <div class="container" >
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">SHOES</div>
+                    <div class="price" >$18.66</div>
+                    <div class="info" STYLE="height: 100px">
+                        Men's Footwear - Buy Men's Shoes
+                    </div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img2">
+                        <img
+                                src="https://images.pexels.com/photos/3649765/pexels-photo-3649765.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">MEN's T-SHIRT</div>
+                    <div class="price">$6.34</div>
+                    <div class="info">PUMA x PALM TREE CREW Men's Graphic T-shirt</div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img3">
+                        <img
+                                src="https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_750,h_750/global/624740/01/mod01/fnd/IND/fmt/png/Showtime-Men's-Basketball-T-shirt"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">T-SHIRT</div>
+                    <div class="price">$29</div>
+                    <div class="info">Showtime Men's Basketball T-shirt</div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://images.pexels.com/photos/8839887/pexels-photo-8839887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">WATCH</div>
+                    <div class="price">$19.1</div>
+                    <div class="info">Watches evolved from portable spring-driven clocks, which first appeared in 15th-century Europe</div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://images.pexels.com/photos/6858618/pexels-photo-6858618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">SMART PHONE</div>
+                    <div class="price">$29.43</div>
+                    <div class="info">iQOO Z9x 5G (Tornado Green, 6GB RAM, 128GB Storage) | Snapdragon 6 Gen 1 with 560k+ AnTuTu Score | 6000mAh Battery with 7.99mm Slim Design | 44W FlashCharge</div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://images.pexels.com/photos/5552789/pexels-photo-5552789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">TELEVISION</div>
+                    <div class="price">$18.56</div>
+                    <div class="info">
+
+                        Hisense 139 cm (55 inches) Q7N Series 4K Ultra HD Smart QLED TV 55Q7N (Dark Grey)
+                    </div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://images.pexels.com/photos/4295985/pexels-photo-4295985.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">HOODIES</div>
+                    <div class="price">$6.17</div>
+                    <div class="info">ADRO Hoodies for Men | Printed Hoodie for Men | Cotton Hoodie | Mens Hoodies | Sweatshirt for Men | Hooded Hoodie</div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://m.media-amazon.com/images/I/61S4E1bmumL._SX679_.jpg"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">DINNER SET</div>
+                    <div class="price">$10.66</div>
+                    <div class="info">
+                        Shri & Sam Stainless Steel Shagun Dinner Set | 50 Pcs Set | Serves 6 People - Solid
+                    </div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://images.pexels.com/photos/6463348/pexels-photo-6463348.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">BLANKETS</div>
+                    <div class="price">$9.9</div>
+                    <div class="info">
+                        Divine Casa 120 GSM Microfiber Single Bed Comforter | Soft & Lightweight Reversible AC Blanket | All-Season 3-Layered Quilt | 230 x 140 cm, Deep Blue
+                    </div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://images.pexels.com/photos/2659939/pexels-photo-2659939.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">LAPTOP</div>
+                    <div class="price">$90.65</div>
+                    <div class="info">
+                        HP 15s, 12th Gen Intel Core i3-1215U, 8GB DDR4, 512GB SSD, (Win 11, Office 21, Silver, 1.69kg), Anti-Glare, 15.6-inch (39.6cm) FHD Laptop, Intel UHD Graphics, HD Camera, Dual Speakers, fy5011TU
+                    </div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://m.media-amazon.com/images/I/31K4UqqITxL._SY445_SX342_QL70_FMwebp_.jpg"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">MICROWAVE</div>
+                    <div class="price">$38.7</div>
+                    <div class="info">
+                        Panasonic 25L Solo Microwave Oven (NN-ST310QBFG, Black, 85 Auto Cook Menus)
+                    </div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://m.media-amazon.com/images/I/21wVqZbriCL._SX300_SY300_QL70_FMwebp_.jpg"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">COFFEE MAKER</div>
+                    <div class="price">$30.7</div>
+                    <div class="info">
+                        NESCAFE E | Coffee Maker for Cafe-like Frothy Coffee At Home | Make Espresso, Cappuccino, Latte at Home with E coffee maker
+                    </div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://m.media-amazon.com/images/S/al-eu-726f4d26-7fdb/ae841479-966c-4f2c-a3e8-3c8e99149a55._CR0,0,1200,628_SX810_QL70_.jpg"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">BED</div>
+                    <div class="price">$99.9</div>
+                    <div class="info">
+                        GODREJ INTERIO Bed, EWA King Size Engineered Wood Bed with Box Storage, 1-Year Warranty, Brown, Particle Board
+                    </div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://m.media-amazon.com/images/I/410jbvy3+cL._SX342_SY445_.jpg"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">AIR CONDITIONER</div>
+                    <div class="price">$78.87</div>
+                    <div class="info">
+                        Blue Star 1.5 Ton 5 Star, 60 Months Warranty, Wi-Fi Smart Inverter Split AC (Copper, Convertible 5 in 1 Cooling, AI Pro, DigiQ Hepta Sensors, 4 Way Swing, 2025 Model, IC518ZNURS, White)
+                    </div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://m.media-amazon.com/images/I/71Jg6kSgYwL._SY466_.jpg"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">BOOK</div>
+                    <div class="price">$19.6</div>
+                    <div class="info">
+                        The 5 AM Club – Own Your Morning. Elevate Your Life – Paperback – 19 December 2018 Paperback – 15 December 2019
+                    </div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://m.media-amazon.com/images/I/81vwVvEGjoL._SX679_.jpg"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">BAG</div>
+                    <div class="price">$39.15</div>
+                    <div class="info">
+                        American Tourister New Bounce Style 01, 27L Volume College Backpack with Front Organizer and Spacious Interiors for Men & Women - Beige
+                    </div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src=" https://m.media-amazon.com/images/I/61SslAC3PQL._SX679_.jpg"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">SAREES</div>
+                    <div class="price">$29.6</div>
+                    <div class="info">
+                        SGF11 Women's Kanjivaram Soft Lichi Silk Saree With Blouse Piece
+                    </div>
+                </div>
+                <div class="items" style="height:400px;text-align: center;font-size: x-large;font-weight: bolder">
+                    <div class="img img1">
+                        <img
+                                src="https://m.media-amazon.com/images/I/41c0BLLCiWL._SX342_SY445_QL70_FMwebp_.jpg"
+                                alt=""
+                        />
+                    </div>
+                    <div class="name" style="font-size:large;background-color: #ffce00;">WASHING MACHINE</div>
+                    <div class="price">$56.78</div>
+                    <div class="info">
+                        LG 7 Kg, 5 Star, Direct Drive Technology, Steam Wash, 6 Motion DD, Smart Diagnosis, Fully-Automatic Front Load Washing Machine (FHM1207SDM, Allergy Care, In-Built Heater, Touch Panel, Middle Black)
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<h2 style="text-align:center;background-color: #1B2FE9;padding: 15px">Product Card</h2>
+<section style="background-image: url('https://wallpapercave.com/wp/wp2763924.gif')">
+    <br>
+    <br>
+    <br>
+    <br>
+<SECTION STYLE="display: inline-flex;">
+
+
+    <div class="card"  >
+        <img src="https://m.media-amazon.com/images/I/31abbqg78cL._SX300_SY300_QL70_FMwebp_.jpg" alt="" style="width:300PX;height: 230px">
+        <h1>Spin Bucket</h1>
+        <p class="price">$19.99</p>
+        <p>
+            Chakaachak ECO Spin Bucket MOP with 4 Wheels,Bucket Floor Cleaning, Easy Wheels & Bucket, Floor Cleaning Mop with Bucket.</p>
+        <p><button>Add to Cart</button></p>
+    </div>
+    <div class="card"  STYLE="margin-left:100px">
+        <img src=" https://m.media-amazon.com/images/I/41ayiU7g89L._SX300_SY300_QL70_FMwebp_.jpg" alt="" style="width:300PX;height: 200px">
+        <h1>Gala Turbo Spin Mop</h1>
+        <p class="price">$15.99</p>
+        <p>Gala Turbo Spin Mop Removes over 99% bacteria,Triangular head & Easy big wheel with 2 Refills,Floor Cleaning Mop.</p>
+        <p><button>Add to Cart</button></p>
+    </div>
+    <div class="card"  STYLE="margin-left:100px">
+        <img src="https://m.media-amazon.com/images/I/41azMJ-wfSL._SX300_SY300_QL70_FMwebp_.jpg" alt="" style="width:300PX;height: 200px">
+        <h1>Mop Heavy Floor</h1>
+        <p class="price">$29.99</p>
+        <p>Mop Heavy Quality Floor Mop with Bucket, Flexible Kitchen tap Flat Squeeze Cleaning Supplies 360 .</p>
+        <p><button>Add to Cart</button></p>
+    </div>
+    <div class="card"  STYLE="margin-left:100px">
+        <img src="https://m.media-amazon.com/images/I/71lQpajLA-L._SX679_.jpg" alt="Denim Jeans" style="width:300PX;height: 250px">
+        <h1>COMPANY  BAG</h1>
+        <p class="price">5.99</p>
+        <p>FUR JADEN Eco Friendly Travel Laptop Backpack Made of Water Resistant Sustainable Canvas.</p>
+        <p><button>Add to Cart</button></p>
+    </div>
+  </SECTION>
+    <br>
+    <br>
+    <br>
+    <br>
+<SECTION STYLE="display: inline-flex">
+    <div class="card" >
+        <img src="https://m.media-amazon.com/images/I/41G5s4uf+AL._SX300_SY300_.jpg" alt="" style="width:300PX;height: 250px">
+        <h1>LED TV</h1>
+        <p class="price">$39.99</p>
+        <p>LG 80 cm (32 inches) HD Ready Smart LED TV 32LM563BPTC (Dark Iron Gray.</p>
+        <p><button>Add to Cart</button></p>
+    </div>
+    <div class="card"  STYLE="margin-left:100px">
+        <img src="https://m.media-amazon.com/images/I/41-59yzHfYL._SY300_SX300_QL70_FMwebp_.jpg" alt="" style="width:300PX;height: 220px">
+        <h1>LED TV</h1>
+        <p class="price">$69.99</p>
+        <p>JVC 80 cm (32 inches) AI Vision Series QLED Android TV LT-32NQ3165C (Titanium Grey)</p>
+        <p><button>Add to Cart</button></p>
+    </div>
+    <div class="card"  STYLE="margin-left:100px">
+        <img src="https://m.media-amazon.com/images/I/714Rv25H9PL._AC_CR0%2C0%2C0%2C0_SX615_SY462_.jpg" alt="" style="width:300PX;height: 220px">
+        <h1>COMPANY  BAG</h1>
+        <p class="price">$1.99</p>
+        <p>FUR JADEN Vegan Leather Anti Theft Casual Laptop Backpack with 15.6 Inch Laptop Pocket</p>
+        <p><button>Add to Cart</button></p>
+    </div>
+    <div class="card"  STYLE="margin-left:100px">
+        <img src="https://m.media-amazon.com/images/I/31UCtpc6PbL._SY300_SX300_.jpg" alt="" style="width:300PX;height: 250px">
+        <h1>COLLEGE  BAG</h1>
+        <p class="price">$10.99</p>
+        <p>American Tourister ACTON Laptop Backpack, 33L with Spacious Interiors .</p>
+        <p><button>Add to Cart</button></p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+</SECTION>
+</section>
+<section style="background-image: url('https://i.pinimg.com/originals/21/f4/c7/21f4c752484ecfc057cd793f9758ed92.gif')">
+<h1 class="text-center my-4" style="background-color: #1B2FE9;padding: 15px">Top Courses Pdf Books Free Download</h1>
+
+<div class="row row-col-1 row-cols-md-3 m-auto my-4">
+    <div class="m-auto col-md-3" id="cards">
+        <div class="card h-100">
+            <img src="https://miro.medium.com/max/1800/1*5eV1xmJs2-sJ4DdejfdnQA.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">Javascript</h5>
+                <p class="card-text">
+                    This Is A Book For Javascript. Beginner Friendly all Things need foe beginners there in pdf book mentioned
+                    please Download and gain knowledge about javascript
+                </p>
+                <a href="https://drive.google.com/file/d/1YOuhfAak-Z3Ra_NBX9_AMhFShuQsMMpI/view?usp=sharing" download
+                   target="_blank" class="btn btn-info" data-toggle="tooltip" data-bs-placement="right"
+                   title="Download Book">Download Book</a>
+            </div>
+        </div>
+    </div>
+<div class="m-auto col-md-3">
+    <div class="card h-100">
+        <img src="https://i.pinimg.com/originals/1f/ec/3e/1fec3ee0665075852c4665a01259682d.png" class="card-img-top"
+             alt="..." />
+        <div class="card-body">
+            <h5 class="card-title">C Programming</h5>
+            <p class="card-text">Advance C Programming Course From Pdf File Please Download This File From Here and You
+                Have From Zero To Hero In C Programming</p>
+            <a href="https://drive.google.com/file/d/1_NA-zRm6BXcI8Q45UJmQ0o1NGBQkFQF8/view?usp=sharing" download
+               target="_blank" class="btn btn-info" data-toggle="tooltip" data-bs-placement="right"
+               title="Download Book">Download Book</a>
+        </div>
+    </div>
+</div>
+<div class="col-md-3 m-auto">
+    <div class="card h-100">
+        <img src="https://www.vtc.com/files/images/courses/33797.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+            <h5 class="card-title">C++ Course</h5>
+            <p class="card-text">
+                Advance C++ Course in Simple English Labguage Please Download A Pdf From Here and Gain Your Knowlwdge in C++
+            </p>
+            <a href="https://drive.google.com/file/d/11W13yROf4_qr7N0P9HbBeB-SKTdeQs6W/view?usp=sharing" download
+               target="_blank" class="btn btn-info" data-toggle="tooltip" data-bs-placement="right"
+               title="Download Book">Download Book</a>
+
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+<div class="row row-col-1 row-cols-md-3 m-auto my-4 mb-8">
+    <div class="m-auto col-md-3">
+        <div class="card h-100">
+            <img src="https://miro.medium.com/max/840/1*RJMxLdTHqVBSijKmOO5MAg.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">Python Programming</h5>
+                <p class="card-text">
+                    Python Programming Course From Basic To Advance Level Please Download a Pdf File and Make You To A
+                    Professional Python Developer Or Freelancer.
+                </p>
+                <a href="https://drive.google.com/file/d/1BQsKJ7yCo93vCW9SoJibFOUGPYivdgQ_/view?usp=sharing" download
+                   target="_blank" class="btn btn-info" data-toggle="tooltip" data-bs-placement="right"
+                   title="Download Book">Download Book</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="m-auto col-md-3">
+        <div class="card h-100">
+            <img src="https://d1jnx9ba8s6j9r.cloudfront.net/imgver.1551437392/img/co_img_193_1504782213.png"
+                    class="card-img-top" alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">Java Programming</h5>
+                <p class="card-text">Java Programming Language From Basic To Advance Level. Learn Java Programming With Object
+                    Oriented Programming(OOP) From This Pdf Book.</p>
+                <a href="https://drive.google.com/file/d/1I_D-UmWHdXkNKNODdlvfNxtzHyMkA8M8/view?usp=sharing" download
+                   target="_blank" class="btn btn-info" data-toggle="tooltip" data-bs-placement="right"
+                   title="Download Book">Download Book</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 m-auto">
+        <div class="card h-100">
+            <img src="https://www.surat-training-course.com/ampimage/fluttercourseinsurat.webp" class="card-img-top"
+               height="226px"  alt="..." />
+            <div class="card-body">
+                <h5 class="card-title">Flutter(DART)</h5>
+                <p class="card-text">
+                    Learn Flutter From Basic To Advance Level. you can build android, desktop and ios application using flutter.
+                </p>
+                <a href="https://drive.google.com/file/d/1wY9Ky8cHO1D5WCnCr0ppFSyL2RiHYP0K/view?usp=sharing" download
+                   target="_blank" class="btn btn-info" data-toggle="tooltip" data-bs-placement="right"
+                   title="Download Book">Download Book</a>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+    </section>
+<footer>
+    <div class="footer0"><h1>E-COMMERCE</h1></div>
+    <div class="footer1">
+        Connect with us at
+        <div class="social-media">
+            <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+            <a href="#"> <ion-icon name="logo-linkedin"></ion-icon> </a>
+            <a href="#"> <ion-icon name="logo-youtube"></ion-icon> </a>
+            <a href="#">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+        </div>
+    </div>
+    <div class="footer2">
+        <div class="product">
+            <div class="heading">Products</div>
+            <div class="div">Sell your Products</div>
+            <div class="div">Advertise</div>
+            <div class="div">Pricing</div>
+            <div class="div">Product Buisness</div>
+        </div>
+        <div class="services">
+            <div class="heading">Services</div>
+            <div class="div">Return</div>
+            <div class="div">Cash Back</div>
+            <div class="div">Affiliate Marketing</div>
+            <div class="div">Others</div>
+        </div>
+        <div class="Company">
+            <div class="heading">Company</div>
+            <div class="div">Complaint</div>
+            <div class="div">Careers</div>
+            <div class="div">Affiliate Marketing</div>
+            <div class="div">Support</div>
+        </div>
+        <div class="Get Help">
+            <div class="heading">Get Help</div>
+            <div class="div">Help Center</div>
+            <div class="div">Privacy Policy</div>
+            <div class="div">Terms</div>
+            <div class="div">Login</div>
+        </div>
+    </div>
+    <div class="footer3">
+        Copyright ©
+        <h4>E-COMMERCE</h4>
+        2025
+    </div>
+</footer>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script src="./ecommerce.js"></script>
+</body>
+</html>
+-----------------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>about-us</title>
+</head>
+<style>
+    * {
+        font-family: Nunito, sans-serif;
+    }
+
+    .responsive-container-block {
+        min-height: 75px;
+        height: fit-content;
+        width: 100%;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        justify-content: flex-start;
+    }
+
+    a {
+        text-decoration-line: none;
+        text-decoration-thickness: initial;
+        text-decoration-style: initial;
+        text-decoration-color: initial;
+    }
+
+    .text-blk {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        line-height: 25px;
+    }
+
+    .responsive-container-block.bigContainer {
+        padding-top: 10px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 50px 10px 50px;
+    }
+
+    .mainImg {
+        color: black;
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .text-blk.headingText {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 30px;
+        color: rgb(176, 98, 255);
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+    }
+
+    .allText {
+        padding-top: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        width: 40%;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+    }
+
+    .text-blk.subHeadingText {
+        color: rgb(102, 102, 102);
+        font-size: 26px;
+        line-height: 32px;
+        font-weight: 700;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .text-blk.description {
+        font-size: 18px;
+        line-height: 26px;
+        color: rgb(102, 102, 102);
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        font-weight: 400;
+        padding-top: 0px;
+        padding-right: 10px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .explore {
+        font-size: 16px;
+        line-height: 28px;
+        color: rgb(102, 102, 102);
+        border-top-width: 2px;
+        border-right-width: 2px;
+        border-bottom-width: 2px;
+        border-left-width: 2px;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-bottom-style: solid;
+        border-left-style: solid;
+        border-top-color: rgb(102, 102, 102);
+        border-right-color: rgb(102, 102, 102);
+        border-bottom-color: rgb(102, 102, 102);
+        border-left-color: rgb(102, 102, 102);
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        cursor: pointer;
+        background-color: white;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-top: 8px;
+        padding-right: 40px;
+        padding-bottom: 8px;
+        padding-left: 40px;
+    }
+
+    .explore:hover {
+        background-image: initial;
+        background-position-x: initial;
+        background-position-y: initial;
+        background-size: initial;
+        background-repeat-x: initial;
+        background-repeat-y: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: rgb(176, 98, 255);
+        color: white;
+        border-top-width: initial;
+        border-right-width: initial;
+        border-bottom-width: initial;
+        border-left-width: initial;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: initial;
+        border-right-color: initial;
+        border-bottom-color: initial;
+        border-left-color: initial;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+    }
+
+    .responsive-container-block.Container {
+        margin-top: 80px;
+        margin-right: auto;
+        margin-bottom: 50px;
+        margin-left: auto;
+        justify-content: center;
+        align-items: center;
+        max-width: 1320px;
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+
+    .responsive-container-block.Container.bottomContainer {
+        flex-direction: row-reverse;
+        margin-top: 80px;
+        margin-right: auto;
+        margin-bottom: 50px;
+        margin-left: auto;
+        position: static;
+    }
+
+    .allText.aboveText {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 40px;
+    }
+
+    .allText.bottomText {
+        margin-top: 0px;
+        margin-right: 40px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-top: 0px;
+        padding-right: 15px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+
+    .purpleBox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 430px;
+        background-color: rgb(176, 98, 255);
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        position: absolute;
+        bottom: -35px;
+        left: -8%;
+    }
+
+    .purpleText {
+        font-size: 18px;
+        line-height: 26px;
+        color: white;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
+
+    .ultimateImg {
+        width: 50%;
+        position: relative;
+    }
+
+    @media (max-width: 1024px) {
+        .responsive-container-block.Container {
+            max-width: 850px;
+        }
+
+        .mainImg {
+            width: 55%;
+            height: auto;
+        }
+
+        .allText {
+            width: 40%;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 20px;
+        }
+
+        .responsive-container-block.bigContainer {
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+        }
+
+        .responsive-container-block.Container.bottomContainer {
+            margin-top: 80px;
+            margin-right: auto;
+            margin-bottom: 50px;
+            margin-left: auto;
+        }
+
+        .responsive-container-block.Container {
+            max-width: 830px;
+        }
+
+        .allText.aboveText {
+            margin-top: 30px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 40px;
+        }
+
+        .allText.bottomText {
+            margin-top: 30px;
+            margin-right: 40px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            text-align: left;
+        }
+
+        .text-blk.headingText {
+            text-align: center;
+        }
+
+        .allText.aboveText {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+
+        .text-blk.subHeadingText {
+            text-align: left;
+            font-size: 26px;
+            line-height: 32px;
+        }
+
+        .text-blk.description {
+            text-align: left;
+            line-height: 24px;
+        }
+
+        .explore {
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+
+        .responsive-container-block.bigContainer {
+            padding-top: 10px;
+            padding-right: 30px;
+            padding-bottom: 10px;
+            padding-left: 30px;
+        }
+
+        .responsive-container-block.Container {
+            justify-content: space-evenly;
+        }
+
+        .purpleBox {
+            bottom: 10%;
+        }
+
+        .responsive-container-block.Container.bottomContainer {
+            padding-top: 10px;
+            padding-right: 0px;
+            padding-bottom: 10px;
+            padding-left: 0px;
+            max-width: 930px;
+        }
+
+        .allText.bottomText {
+            width: 40%;
+        }
+
+        .purpleBox {
+            bottom: auto;
+            left: -10%;
+            top: 70%;
+        }
+
+        .mainImg {
+            width: 100%;
+        }
+
+        .text-blk.headingText {
+            text-align: left;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .allText {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+        }
+
+        .responsive-container-block.Container {
+            flex-direction: column;
+            height: auto;
+        }
+
+        .text-blk.headingText {
+            text-align: center;
+        }
+
+        .text-blk.subHeadingText {
+            text-align: center;
+            font-size: 24px;
+        }
+
+        .text-blk.description {
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .allText {
+            margin-top: 40px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+
+        .allText.aboveText {
+            margin-top: 40px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+
+        .responsive-container-block.Container {
+            margin-top: 80px;
+            margin-right: auto;
+            margin-bottom: 50px;
+            margin-left: auto;
+        }
+
+        .responsive-container-block.Container.bottomContainer {
+            margin-top: 50px;
+            margin-right: auto;
+            margin-bottom: 50px;
+            margin-left: auto;
+        }
+
+        .allText.bottomText {
+            margin-top: 40px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+
+        .mainImg {
+            width: 100%;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: -70px;
+            margin-left: 0px;
+        }
+
+        .responsive-container-block.Container.bottomContainer {
+            flex-direction: column;
+        }
+
+        .ultimateImg {
+            width: 100%;
+        }
+
+        .purpleBox {
+            position: static;
+        }
+
+        .allText.bottomText {
+            width: 100%;
+            align-items: flex-start;
+        }
+
+        .text-blk.headingText {
+            text-align: left;
+        }
+
+        .text-blk.subHeadingText {
+            text-align: left;
+        }
+
+        .text-blk.description {
+            text-align: left;
+        }
+
+        .ultimateImg {
+            position: static;
+        }
+
+        .mainImg {
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+
+        .ultimateImg {
+            position: relative;
+        }
+
+        .purpleBox {
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            position: absolute;
+            left: 0px;
+            top: 80%;
+        }
+
+        .allText.bottomText {
+            margin-top: 100px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .responsive-container-block.Container {
+            padding-top: 10px;
+            padding-right: 0px;
+            padding-bottom: 10px;
+            padding-left: 0px;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .mainImg {
+            width: 100%;
+        }
+
+        .responsive-container-block.bigContainer {
+            padding-top: 10px;
+            padding-right: 25px;
+            padding-bottom: 10px;
+            padding-left: 25px;
+        }
+
+        .text-blk.subHeadingText {
+            font-size: 24px;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            line-height: 28px;
+        }
+
+        .text-blk.description {
+            font-size: 16px;
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            line-height: 22px;
+        }
+
+        .allText {
+            padding-top: 0px;
+            padding-right: 0px;
+            padding-bottom: 0px;
+            padding-left: 0px;
+            width: 100%;
+        }
+
+        .allText.bottomText {
+            margin-top: 50px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            padding: 0 0 0 0;
+            margin: 30px 0 0 0;
+        }
+
+        .ultimateImg {
+            position: static;
+        }
+
+        .purpleBox {
+            position: static;
+        }
+
+        .stars {
+            width: 55%;
+        }
+
+        .allText.bottomText {
+            margin-top: 75px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+
+        .responsive-container-block.bigContainer {
+            padding-top: 10px;
+            padding-right: 20px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+        }
+
+        .purpleText {
+            font-size: 16px;
+            line-height: 22px;
+        }
+
+        .explore {
+            padding: 6px 35px 6px 35px;
+            font-size: 15px;
+        }
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&amp;display=swap');
+
+    *,
+    *:before,
+    *:after {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .wk-desk-1 {
+        width: 8.333333%;
+    }
+
+    .wk-desk-2 {
+        width: 16.666667%;
+    }
+
+    .wk-desk-3 {
+        width: 25%;
+    }
+
+    .wk-desk-4 {
+        width: 33.333333%;
+    }
+
+    .wk-desk-5 {
+        width: 41.666667%;
+    }
+
+    .wk-desk-6 {
+        width: 50%;
+    }
+
+    .wk-desk-7 {
+        width: 58.333333%;
+    }
+
+    .wk-desk-8 {
+        width: 66.666667%;
+    }
+
+    .wk-desk-9 {
+        width: 75%;
+    }
+
+    .wk-desk-10 {
+        width: 83.333333%;
+    }
+
+    .wk-desk-11 {
+        width: 91.666667%;
+    }
+
+    .wk-desk-12 {
+        width: 100%;
+    }
+
+    @media (max-width: 1024px) {
+        .wk-ipadp-1 {
+            width: 8.333333%;
+        }
+
+        .wk-ipadp-2 {
+            width: 16.666667%;
+        }
+
+        .wk-ipadp-3 {
+            width: 25%;
+        }
+
+        .wk-ipadp-4 {
+            width: 33.333333%;
+        }
+
+        .wk-ipadp-5 {
+            width: 41.666667%;
+        }
+
+        .wk-ipadp-6 {
+            width: 50%;
+        }
+
+        .wk-ipadp-7 {
+            width: 58.333333%;
+        }
+
+        .wk-ipadp-8 {
+            width: 66.666667%;
+        }
+
+        .wk-ipadp-9 {
+            width: 75%;
+        }
+
+        .wk-ipadp-10 {
+            width: 83.333333%;
+        }
+
+        .wk-ipadp-11 {
+            width: 91.666667%;
+        }
+
+        .wk-ipadp-12 {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .wk-tab-1 {
+            width: 8.333333%;
+        }
+
+        .wk-tab-2 {
+            width: 16.666667%;
+        }
+
+        .wk-tab-3 {
+            width: 25%;
+        }
+
+        .wk-tab-4 {
+            width: 33.333333%;
+        }
+
+        .wk-tab-5 {
+            width: 41.666667%;
+        }
+
+        .wk-tab-6 {
+            width: 50%;
+        }
+
+        .wk-tab-7 {
+            width: 58.333333%;
+        }
+
+        .wk-tab-8 {
+            width: 66.666667%;
+        }
+
+        .wk-tab-9 {
+            width: 75%;
+        }
+
+        .wk-tab-10 {
+            width: 83.333333%;
+        }
+
+        .wk-tab-11 {
+            width: 91.666667%;
+        }
+
+        .wk-tab-12 {
+            width: 100%;
+        }
+    }
+
+    @media (max-width: 500px) {
+        .wk-mobile-1 {
+            width: 8.333333%;
+        }
+
+        .wk-mobile-2 {
+            width: 16.666667%;
+        }
+
+        .wk-mobile-3 {
+            width: 25%;
+        }
+
+        .wk-mobile-4 {
+            width: 33.333333%;
+        }
+
+        .wk-mobile-5 {
+            width: 41.666667%;
+        }
+
+        .wk-mobile-6 {
+            width: 50%;
+        }
+
+        .wk-mobile-7 {
+            width: 58.333333%;
+        }
+
+        .wk-mobile-8 {
+            width: 66.666667%;
+        }
+
+        .wk-mobile-9 {
+            width: 75%;
+        }
+
+        .wk-mobile-10 {
+            width: 83.333333%;
+        }
+
+        .wk-mobile-11 {
+            width: 91.666667%;
+        }
+
+        .wk-mobile-12 {
+            width: 100%;
+        }
+    }
+</style>
+<body style="background-image: url('https://giffiles.alphacoders.com/212/212876.gif')">
+<div class="responsive-container-block bigContainer">
+    <div class="responsive-container-block Container bottomContainer">
+        <div class="ultimateImg">
+            <img class="mainImg" src="https://www.formationfacile.com/wp-content/uploads/2022/11/Vous-pouvez-aussi-gagner-plus-avec-le-e-commerce.gif">
+            <div class="purpleBox">
+                <p class="purpleText">
+                    Communication is at the heart of e-commerce and community.” – Meg Whitman, President, and CEO of Hewlett-Packard
+                </p>
+                <img class="stars" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/mp5.svg">
+            </div>
+        </div>
+        <div class="allText bottomText">
+            <p class="text-blk headingText" style="color: #05cd0d;font-size: xxx-large;font-weight: bolder;text-align: center">
+                About-Us
+            </p>
+            <p class="text-blk subHeadingText" style="color: #ffce00;margin-top: 50px">
+                If people do business with people and not brands, then what better way to show that there are real people behind your business than to put your team’s picture on your store’s About page? Also, even if you only highlight yourself and not your team, it’s a chance to build your own brand for making quality stores and serving your market.
+            </p>
+            <p class="text-blk description" style="color: #876d01">
+                E-commerce refers to commercial activities including the electronic buying or selling products and services which are conducted on online platforms or over the Internet. E-commerce draws on technologies such as mobile commerce, electronic funds transfer, supply chain management, Internet marketing, online transaction processing, electronic data interchange, inventory management systems, and automated data collection systems. E-commerce is the largest sector of the electronics industry and is in turn driven by the technological advances of the semiconductor industry.
+            </p>
+            <a class="explore" href="product.html">
+
+                View Services
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+----------------------
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+ header {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height:60px;
+      width:100%;
+     background:black;
+ }
+
+.heading ul {
+    display:flex;
+
+  }
+
+.logo a {
+       color:white;
+       transition-duration: 1s;
+       font-weight: 800;
+
+  }
+
+ .logo a:hover {
+       color:rgb(240, 197, 6);
+       transition-duration: 1s;
+
+  }
+
+ .heading ul li {
+      list-style: none;
+
+  }
+
+.heading ul li a {
+       margin:5px;
+      text-decoration: none;
+    color:black;
+      font-weight: 500;
+      position:relative;
+       color:white;
+       margin:2px 14px;
+        font-size: 18px;
+       transition-duration: 1s;
+}
+
+.heading ul li a:active {
+      color:red;
+
+  }
+
+.heading ul li a:hover {
+   color:rgb(243, 168, 7);
+       transition-duration: 1s;
+
+  }
+
+ .heading ul li a::before {
+       content:'';
+       height:2px;
+      width:0px;
+     position:absolute;
+ left:0;
+      bottom:0;
+   background-color: white;
+      transition-duration: 1s;
+
+  }
+
+ .heading ul li a:hover::before {
+     width:100%;
+    transition-duration: 1s;
+      background-color:rgb(243, 168, 7);
+
+  }
+
+ #input {
+      height:30px;
+    width:300px;
+      text-decoration: none;
+     border:0px;
+      padding:5px;
+
+  }
+
+ .logo a {
+  color: white;
+    font-size: 35px;
+     font-weight: 500;
+ text-decoration:none;
+
+  }
+
+    ion-icon {
+     width:30px;
+      height:30px;
+      background-color: white;
+     color:black;
+
+  }
+
+ ion-icon:hover {
+     cursor: pointer;
+
+  }
+
+.search a {
+      display:flex;
+
+  }
+
+ header a ion-icon {
+       position:relative;
+      right:3px;
+
+  }
+
+ .img-slider img {
+      height:720px;
+     width:1080px;
+
+  }
+
+ @keyframes slide {
+ 0% {
+   left:0px;
+
+}
+
+ 15% {
+   left:0px;
+
+}
+
+ 20% {
+    left:-1080px;
+
+}
+
+ 32% {
+     left:-1080px;
+
+}
+
+ 35% {
+    left:-2160px;
+
+}
+
+ 47% {
+     left:-2160px;
+
+}
+
+ 50% {
+     left:-3240px;
+
+}
+
+ 63% {
+     left:-3240px;
+
+}
+
+66% {
+     left:-4320px;
+
+}
+
+ 79% {
+     left:-4320px;
+
+}
+
+82% {
+     left:-5400px;
+
+}
+
+100% {
+     left:0px;
+
+}
+}
+
+ .img-slider {
+       display:flex;
+        float:left;
+        position:relative;
+     width:1080px;
+       height:720px;
+       animation-name:slide;
+        animation-duration: 10s;
+       animation-iteration-count: infinite;
+        transition-duration:2s;
+
+   }
+
+.heading1 {
+        opacity:0;
+
+   }
+
+.search {
+       display:flex;
+        position: relative;
+
+   }
+
+.section1 {
+       width:1080px;
+        overflow:hidden;
+       justify-content: center;
+    align-items: center;
+        margin:0px auto;
+
+   }
+
+.section2 .container {
+        display:flex;
+        width:100%;
+       height:max-content;
+        flex-wrap: wrap;
+      justify-content:center;
+      margin:10px auto;
+
+   }
+
+.section2 .container .items {
+       margin: 10px;
+       width:200px;
+   height: 300px;
+      background-color:white;
+        border:2.5px solid black;
+        border-radius: 12px;
+
+   }
+
+ .section2 .container .items .name {
+       text-align:center;
+        background-color:rgb(240, 197, 6);
+       height:25px;
+     padding-top:4px;
+        color:white;
+   margin: 0;
+
+   }
+
+ .section2 .container .items .price {
+       float:left;
+        padding-left:10px;
+        display: block;
+        width:100%;
+        color:rgb(255, 0, 0);
+       font-weight: 650;
+
+   }
+
+.section2 .container .items .info {
+       padding-left:10px;
+     color:rgb(243, 168, 7);
+
+   }
+
+ .section2 .container .items .img img {
+        width:200px;
+        height:200px;
+      margin: 0;
+      padding: 0;
+     border-radius:12px;
+      transition-duration:0.8s;
+
+   }
+
+.section2 .container .items .img {
+    overflow: hidden;
+     margin: 0;
+
+   }
+.section2 .container .items:hover .img img {
+        transform: scale(1.2);
+        transition-duration:0.8s;
+        border-radius:12px;
+
+   }
+
+ footer {
+        display:flex;
+     flex-direction: column;
+    background-color: black;
+       align-items: center;
+     color:white;
+
+   }
+
+.footer1 {
+        display:flex;
+       flex-direction: column;
+        align-items: center;
+       color:white;
+      margin-top:15px;
+
+   }
+ .social-media {
+       display:flex;
+       justify-content: center;
+       color:white;
+       flex-wrap: wrap;
+
+   }
+
+.social-media a {
+      color:white;
+       margin:20px;
+       border-radius: 5px;
+       margin-top:10px;
+        color:white;
+
+   }
+ .social-media a ion-icon {
+        color:white;
+        background-color: black;
+
+   }
+
+.social-media a:hover ion-icon {
+        color:red;
+        transform: translateY(5px);
+
+   }
+
+.footer2 {
+        display: flex;
+        width:100%;
+        justify-content:space-evenly;
+        align-items: center;
+       text-decoration: none;
+        flex-wrap: wrap;
+
+   }
+
+.footer0 {
+        font-weight:1200;
+        transition-duration: 1s;
+
+   }
+
+.footer0:hover {
+       color:rgb(243, 168, 7);
+
+   }
+
+ .footer2 .heading {
+        font-weight: 900;
+        font-size: 18px;
+
+   }
+
+ .footer3 {
+        margin-top:60px;
+        margin-bottom: 20px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+   }
+
+.footer2 .heading:hover {
+        color:rgb(243, 168, 7);
+
+   }
+
+.footer2 .div:hover {
+        transform: scale(1.05);
+
+   }
+
+.footer3 h4 {
+        margin:0 10px;
+
+   }
+
+.footer2 div {
+        margin:10px;
+
+   }
+
+.menu {
+        visibility:hidden;
+
+   }
+
+.heading1 .ham:active {
+        color: red;
+
+   }
+
+.items {
+       overflow:hidden;
+
+   }
+
+.ham,
+   .close {
+        cursor:pointer;
+
+   }
+ @media screen and (max-width:1250px) {
+    .heading ul li {
+     display:none;
+
+}
+     .items {
+     transform:scale(0.9);
+
+}
+
+     .img-slider img {
+     height:60vw;
+     width:80vw;
+
+}
+
+    .ham:active {
+         color:red;
+
+    }
+
+     .menu {
+     display:flex;
+     flex-direction: column;
+     align-items: center;
+
+}
+
+    .menu a ion-icon {
+     position: absolute;
+
+}
+
+     @keyframes slide1 {
+     0% {
+     left:0vw;
+
+}
+
+     15% {
+     left:0vw;
+
+}
+
+     20% {
+     left:-80vw;
+
+}
+
+     32% {
+     left:-80vw;
+
+}
+
+     35% {
+     left:-160vw;
+
+}
+
+     47% {
+     left:-160vw;
+
+}
+
+     50% {
+     left:-240vw;
+
+}
+
+     63% {
+     left:-240vw;
+
+}
+
+     66% {
+     left:-320vw;
+
+}
+
+     79% {
+     left:-320vw;
+
+}
+
+     82% {
+     left:-400vw;
+
+}
+
+    100% {
+     left:0vw;
+
+}
+}
+
+    .menu ul {
+     display:flex;
+     flex-direction:column;
+     position: absolute;
+     width:100vw;
+     height:100vh;
+     background-color: black;
+     left:0;
+     top:0;
+     z-index:11;
+     align-items: center;
+     justify-content: center;
+     opacity:1;
+
+}
+
+     .close {
+    z-index:34;
+     color:white;
+     background-color: black;
+
+}
+
+    .close:active {
+               color:red;
+
+          }
+
+    .menu ul li {
+    list-style: none;
+     margin: 20px;
+     border-top:3px solid white;
+     width:80%;
+     text-align:center;
+     padding-top:10px;
+
+}
+
+     .menu ul li a {
+     text-decoration: none;
+     padding-top: 10px;
+     color:white;
+    font-weight: 900;
+
+}
+
+     .menu ul li a:hover {
+                          color:rgb(240, 197, 6);
+
+                     }
+
+     .img-slider {
+    display:flex;
+     float:left;
+     position:relative;
+     width:80%;
+    height:60%;
+     animation-name:slide1;
+     animation-duration: 10s;
+     animation-iteration-count: infinite;
+     transition-duration:2s;
+
+}
+
+ .section1 {
+     width:80%;
+     overflow:hidden;
+     justify-content: center;
+     align-items: center;
+     margin:0px auto;
+
+}
+
+     .heading1 {
+     opacity: 1;
+     position:relative;
+     bottom:8px;
+
+}
+
+    .search a {
+    display:flex;
+     flex-wrap: nowrap;
+
+}
+
+     .heading1 .ham {
+     background-color: black;
+     color:white;
+
+}
+
+     #input {
+     width:200px;
+     flex-shrink:2;
+
+}
+
+     header {
+     height:150px;
+
+}
+
+
+}
+
+ @media screen and (max-width:550px) {
+     .heading ul li {
+     display:none;
+
+}
+     .heading1 {
+     opacity: 1;
+     bottom:8px;
+
+}
+
+    header {
+    height:250px;
+   flex-wrap: wrap;
+    display: flex;
+   flex-direction: column;
+
+}
+
+    #input {
+  width:150px;
+
+}
+
+     .close {
+     z-index:34;
+}
+
+     .search a {
+    display:flex;
+     flex-wrap: nowrap;
+
+}
+
+
+}
+--------------------
+const close=document.querySelector(".close");
+const
+    open=document.querySelector(".ham");
+const
+    menu=document.querySelector(".menu")
+close.addEventListener("click",()=>{
+    menu.style.visibility="hidden";  })
+open.addEventListener("click",()=>{
+    menu.style.visibility="visible";  })
+    ------------------
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Raleway');
+
+    body{
+
+        background-color: #ffce00;
+        color: #1c1c1c;
+        font-family: 'Raleway', sans-serif;
+        font-size: 5vw;
+    }
+    ul {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        transform-origin: top right;
+        transform: skewY(-4.398705355deg);
+        margin: 0 6.4vw 0 28%;
+    }
+    li{
+        transform-origin: top left;
+        transform: skewY(4.398705355deg) rotatez(14.03624deg);
+        padding-top: 150%;
+        z-index: 1;
+        transition-property: z-index;
+        transition-duration: .3s;
+    }
+    .details{
+        position: absolute;
+        z-index: 2;
+        width: 98%;
+        height: 95%;
+        top: 0;
+        background-color: #DADDDF;
+        border-radius: 2vw;
+        box-shadow: inset 0px 0px 0px 7vw #FCF8F4;
+        box-sizing: border-box;
+        webkit-filter: drop-shadow(2px 6px 3px rgba(0, 0, 0, 0.4));
+        filter: drop-shadow(2px 6px 3px rgba(0, 0, 0, 0.4));
+        transform: rotate(0deg) translate(0, 0);
+        transition-property: transform;
+        transition-duration: .3s;
+    }
+
+    h2, p, img {
+        position: absolute;
+        z-index: 4;
+    }
+
+    p{
+        font-size:1.4em;
+        background-color: #FCF8F4;
+        padding: 2% 2.5% 2% 2.5%;
+    }
+    p:nth-child(2n){
+        top: 3%;
+        left: 5%;
+    }
+    p:nth-child(2n+1){
+        transform: rotatez(180deg);
+        bottom: 3%;
+        right: 5%;
+    }
+    h2{
+        text-align: center;
+        width: 122%;
+        left: -11%;
+        top: 46%;
+        transform: rotatez(-45deg);
+        background-color: #FCF8F4;
+        line-height: 140%;
+        transition-property: top;
+        transition-duration: .3s;
+    }
+    img{
+        width: 84%;
+        top: 50%;
+        left: 50%;
+    }
+    img:nth-child(2n){
+        transform: translateX(-30%) translateY(5%) rotatez(135deg);
+        transition-property: width,transform;
+        transition-duration: .3s;
+    }
+    img:nth-child(2n+1){
+        transform: translateX(-70%) translateY(-105%) rotatez(-45deg);
+        transition-property: width,transform;
+        transition-duration: .3s;
+    }
+
+    li:hover{
+        z-index: 4;
+    }
+    li:hover h2{
+        top: 64%;
+    }
+    li:hover .details{
+        transform: rotate(-14.03624deg) translate(5.5%, 15%) scale(1.5);
+    }
+    li:hover img:nth-child(2n){
+        width: 60%;
+        transform: translateX(-15%) translateY(60%) rotatez(135deg);
+    }
+    li:hover img:nth-child(2n+1){
+        width: 120%;
+        transform: translateX(-65%) translateY(-75%) rotatez(-45deg);
+    }
+    @media (min-width:300px) {
+        body{
+            font-size: 2.75vw;
+        }
+        ul {
+            grid-template-columns: repeat(2,1fr);
+            grid-column-gap: 3vw;
+            margin: 0 3.9vw 0 15vw;
+        }
+        .details{
+            box-shadow: inset 0px 0px 0px 4vw #FCF8F4;
+        }
+    }
+
+    @media (min-width:600px) {
+        body{
+            font-size: 1.95vw;
+        }
+        ul {
+            grid-template-columns: repeat(3,1fr);
+            grid-column-gap: 2vw;
+            margin: 0 2.8vw 0 10vw;
+        }
+        .details{
+            box-shadow: inset 0px 0px 0px 2.8vw #FCF8F4;
+        }
+    }
+
+    @media (min-width:900px) {
+        body{
+            font-size: 1.5vw;
+        }
+        ul {
+            grid-template-columns: repeat(4,1fr);
+            grid-column-gap: 1.5vw;
+            margin: 0 2.2vw 0 8vw;
+        }
+        .details{
+            box-shadow: inset 0px 0px 0px 2.2vw #FCF8F4;
+        }
+    }
+
+    @media (min-width:1200px) {
+        body{
+            font-size: 1.25vw;
+        }
+        ul {
+            grid-template-columns: repeat(5,1fr);
+            grid-column-gap: 1vw;
+            margin: 0 1.8vw 0 6.5vw;
+        }
+        .details{
+            box-shadow: inset 0px 0px 0px 1.8vw #FCF8F4;
+        }
+    }
+
+    @media (min-width:1500px) {
+        body{
+            font-size: 1vw;
+        }
+        ul {
+            grid-template-columns: repeat(6,1fr);
+            grid-column-gap: 1vw;
+            margin: 0 1.5vw 0 5.5vw;
+        }
+        .details{
+            box-shadow: inset 0px 0px 0px 1.5vw #FCF8F4;
+        }
+    }
+
+</style>
+<body>
+<h1 STYLE="background-color: #51028e;padding: 13px;text-align: center;font-weight: bolder;font-size: xxx-large">SHOES-ITEMS DIFFERENT COMPANY AND ORGANISATION </h1>
+<ul>
+    <li>
+        <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Odyssey React Shield</h2>
+            <p>$130</p>
+            <p>$130</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike01b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>LeBron 16</h2>
+            <p>$185</p>
+            <p>$185</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike02b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Epic React Flyknit</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike03b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Max 97 Premium</h2>
+            <p>$180</p>
+            <p>$180</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike04b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Motion Flyknit 2018</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike05b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free RN Flyknit 2018</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike06b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Rise React Flyknit LMTD</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike07b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Flyknit Racer G</h2>
+            <p>$175</p>
+            <p>$175</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike08b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike EXP-X14 Premium iD</h2>
+            <p>$160</p>
+            <p>$160</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike09b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Free x Retcon</h2>
+            <p>$120</p>
+            <p>$120</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike10b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Air Force 1 '07 Suede</h2>
+            <p>$90</p>
+            <p>$90</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike11b.png">
+        </div>
+    </li>
+    <li>
+        <div class="details">
+            <h2>Nike Metcon 4 iD</h2>
+            <p>$150</p>
+            <p>$150</p>
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12a.png">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/881020/nike12b.png">
+        </div>
+    </li>
+</ul>
+</body>
+</html>
+-----------------
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700,800, 800i, 900&display=swap');
+
+
+
+.container {
+    position: relative;
+}
+
+.container .card {
+    position: relative;
+    width: 320px;
+    height: 450px;
+    background: #232323;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container .card:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1BBFE9;
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+}
+
+.container .card:hover:before {
+    clip-path: circle(300px at 80% -20%);
+}
+
+.container .card:after {
+    content: "Nike";
+    position: absolute;
+    top: 30%;
+    left: -20%;
+    font-size: 12em;
+    font-weight: 800;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.04);
+
+}
+
+.container .card .imgBx {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.container .card:hover .imgBx {
+    top: 0%;
+    transform: translateY(-25%);
+    /* bug  */
+}
+
+.container .card .imgBx img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(20deg);
+    width: 270px;
+}
+
+.container .card .contentBx {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 90;
+}
+
+.container .card:hover .contentBx {
+    height: 210px;
+}
+
+.container .card .contentBx h2 {
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.container .card .contentBx .size,
+.container .card .contentBx .color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.container .card:hover .contentBx .size {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .5s;
+}
+
+.container .card:hover .contentBx .color {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: .6s;
+}
+
+.container .card .contentBx .size h3,
+.container .card .contentBx .color h3 {
+    color: white;
+    font-weight: 300;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+
+.container .card .contentBx .size span {
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+    background: #fff;
+    margin: 0 5px;
+    transition: .5s;
+    color: #111;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container .card .contentBx .size span:hover {  /* other bug */
+    background: #B90000;
+}
+
+.container .card .contentBx .color span {
+    width: 20px;
+    height: 20px;
+    background: #ff0;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.container .card .contentBx .color span:nth-child(2) {
+    background: #1BBFE9;
+}
+
+.container .card .contentBx .color span:nth-child(3) {
+    background: #1B2FE9;
+}
+
+.container .card .contentBx .color span:nth-child(4) {
+    background: #080481;
+}
+
+.container .card .contentBx a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #111;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: .5s;
+}
+
+.container .card:hover .contentBx a {
+    opacity: 1;
+    transform: translateY(0px);
+    transition-delay: .7s;
+}
+.card {
+    position: relative;
+    width: 320px;
+    height: 480px;
+    background: #191919;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background: #ffce00;
+    transform: skewY(345deg);
+    transition: 0.5s;
+}
+
+.card:hover::before {
+    top: -70%;
+    transform: skewY(390deg);
+}
+
+.card::after {
+    content: "CORSAIR";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 6em;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.card .imgBox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+/*
+.card .imgBox img {
+    max-width: 100%;
+
+    transition: .5s;
+}
+
+.card:hover .imgBox img {
+    max-width: 50%;
+
+}
+*/
+.card .contentBox {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.card .contentBox h3 {
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card .contentBox .price {
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.card .contentBox .buy {
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    padding: 10px 30px;
+    margin-top: 15px;
+    color: #000000;
+    text-decoration: none;
+    background: #ffce00;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.card:hover .contentBox .buy {
+    top: 0;
+    opacity: 1;
+}
+
+.mouse {
+    height: 300px;
+    width: auto;
+}
+----------------
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <title>Product Card </title>
+
+</head>
+
+<body>
+<h1 STYLE="background-color: green;text-align: center;font-size: xx-large;font-weight: bolder;padding: 15px">SPECIAL-ITEMS</h1>
+<div style="display: inline-flex">
+<div class="container">
+    <div class="card">
+        <div class="imgBx">
+            <img src="https://m.media-amazon.com/images/I/71XWmB0HhyL._SY695_.jpg" alt="https://m.media-amazon.com/images/I/71XWmB0HhyL._SY695_.jpg" height="200px">
+        </div>
+
+        <div class="contentBx">
+
+            <h2>Nike Shoes</h2>
+
+            <div class="size">
+                <h3>Size :</h3>
+                <span>7</span>
+                <span>8</span>
+                <span>9</span>
+                <span>10</span>
+            </div>
+
+            <div class="color">
+
+                <h3>Color :</h3>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a href="#">Buy Now</a>
+        </div>
+
+    </div>
+</div>
+    <div class="container" style="margin-left:100px">
+        <div class="card">
+            <div class="imgBx">
+                <img src="https://m.media-amazon.com/images/I/51+N1-916lL._SY695_.jpg" height="200px"  alt="">
+            </div>
+
+            <div class="contentBx">
+
+                <h2>Adidas Shoes</h2>
+
+                <div class="size">
+                    <h3>Size :</h3>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>10</span>
+                </div>
+
+                <div class="color">
+
+                    <h3>Color :</h3>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="#">Buy Now</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="container" style="margin-left:100px">
+        <div class="card">
+            <div class="imgBx">
+                <img src="https://m.media-amazon.com/images/I/71f3BmjCwtL._SY695_.jpg" height="200px" alt="">
+            </div>
+
+            <div class="contentBx">
+
+                <h2>Sport Shoes</h2>
+
+                <div class="size">
+                    <h3>Size :</h3>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>10</span>
+                </div>
+
+                <div class="color">
+
+                    <h3>Color :</h3>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="#">Buy Now</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="container" style="margin-left:100px">
+        <div class="card">
+            <div class="imgBx">
+                <img src="https://m.media-amazon.com/images/I/61RFlIUeaIL._SY695_.jpg" height="200px" alt="">
+            </div>
+
+            <div class="contentBx">
+
+                <h2>Lancer Shoes</h2>
+
+                <div class="size">
+                    <h3>Size :</h3>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                    <span>10</span>
+                </div>
+
+                <div class="color">
+
+                    <h3>Color :</h3>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <a href="#">Buy Now</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div style="display: inline-flex">
+<div class="card" >
+
+    <div class="imgBox">
+        <img src="https://www.techpowerup.com/img/14-01-23/Tt_eSports_Level_10_M_Hybrid_02.jpg" alt="mouse corsair" class="mouse">
+    </div>
+
+    <div class="contentBox">
+        <h3>Mouse Corsair M65</h3>
+        <h2 class="price">61.<small>98</small> €</h2>
+        <a href="#" class="buy">Buy Now</a>
+    </div>
+
+</div>
+    <div class="card" style="margin-left: 100px" >
+
+        <div class="imgBox">
+            <img src="https://m.media-amazon.com/images/I/31ROHZJMEUL._SX300_SY300_QL70_FMwebp_.jpg" alt="" class="mouse">
+        </div>
+
+        <div class="contentBox">
+            <h3>Logitech M221</h3>
+            <h2 class="price">23.<small>98</small> €</h2>
+            <a href="#" class="buy">Buy Now</a>
+        </div>
+
+    </div>
+<div class="card" style="margin-left: 100px">
+
+    <div class="imgBox">
+        <img src="https://m.media-amazon.com/images/I/41gVECjYPRL._SX300_SY300_QL70_FMwebp_.jpg" alt="" class="mouse">
+    </div>
+
+    <div class="contentBox">
+        <h3>ZEBRONICS PHERO</h3>
+        <h2 class="price">44.<small>98</small> €</h2>
+        <a href="#" class="buy">Buy Now</a>
+    </div>
+
+</div>
+<div class="card" style="margin-left: 100px">
+
+    <div class="imgBox">
+        <img src="https://m.media-amazon.com/images/I/31kSpToKi8L._SX300_SY300_QL70_FMwebp_.jpg" alt="" class="mouse">
+    </div>
+
+    <div class="contentBox">
+        <h3>ZEBRONICS Blanc Slim </h3>
+        <h2 class="price">2.<small>98</small> €</h2>
+        <a href="#" class="buy">Buy Now</a>
+    </div>
+
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div style="display: inline-flex">
+    <div class="card" >
+
+        <div class="imgBox">
+            <img src="https://m.media-amazon.com/images/I/51ZZHJF4qwL._SX300_SY300_QL70_FMwebp_.jpg" alt="" class="mouse">
+        </div>
+
+        <div class="contentBox">
+            <h3>Fire-Boltt 4G Pro Volte Calling </h3>
+            <h2 class="price">21.<small>98</small> €</h2>
+            <a href="#" class="buy">Buy Now</a>
+        </div>
+
+    </div>
+    <div class="card" style="margin-left: 100px">
+
+        <div class="imgBox">
+            <img src="https://m.media-amazon.com/images/I/41dti4dgHiL._SX300_SY300_QL70_FMwebp_.jpg" alt="" class="mouse">
+        </div>
+
+        <div class="contentBox">
+            <h3>LG Electronics 34Wq60C Curved </h3>
+            <h2 class="price">31.<small>98</small> €</h2>
+            <a href="#" class="buy">Buy Now</a>
+        </div>
+
+    </div>
+    <div class="card" style="margin-left: 100px">
+
+        <div class="imgBox">
+            <img src="https://m.media-amazon.com/images/I/41QhRdnbhhL._SX300_SY300_QL70_FMwebp_.jpg" alt="" class="mouse">
+        </div>
+
+        <div class="contentBox">
+            <h3>Hoteon Extension Board, Power Strip with 20W </h3>
+            <h2 class="price">21.<small>98</small> €</h2>
+            <a href="#" class="buy">Buy Now</a>
+        </div>
+
+    </div>
+    <div class="card" style="margin-left: 100px">
+
+        <div class="imgBox">
+            <img src="https://m.media-amazon.com/images/I/31RzcSwwH0L._SX300_SY300_QL70_FMwebp_.jpg" alt="" class="mouse">
+        </div>
+
+        <div class="contentBox">
+            <h3> ZEBRONICS Juke BAR 9900, 725 Watts,</h3>
+            <h2 class="price">11.<small>98</small> €</h2>
+            <a href="#" class="buy">Buy Now</a>
+        </div>
+
+    </div>
+</div>
+</body>
+
+</html>
+--------------
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) !important;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    body::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    section {
+        position: relative;
+        z-index: 3;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .container {
+        max-width: 1080px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section-header {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .section-header h2 {
+        color: #FFF;
+        font-weight: bold;
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+    .section-header p {
+        color: #FFF;
+    }
+
+    .row  {
+        display: flex;
+        flwx-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contact-info {
+        width: 50%;
+    }
+
+    .contact-info-item {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .contact-info-icon {
+        height: 70px;
+        width: 70px;
+        background-color: #fff;
+        text-align: center;
+        border-radius: 50%;
+    }
+
+    .contact-info-icon i {
+        font-size: 30px;
+        line-height: 70px;
+    }
+
+    .contact-info-content {
+        margin-left: 20px;
+    }
+
+    .contact-info-content h4 {
+        color: #1da9c0;
+        font-size: 1.4em;
+        margin-bottom: 5px;
+    }
+
+    .contact-info-content p {
+        color: #FFF;
+        font-size: 1em;
+    }
+
+    .contact-form {
+        background-color: #fff;
+        padding: 40px;
+        width: 45%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .contact-form h2 {
+        font-weight: bold;
+        font-size: 2em;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .contact-form .input-box {
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .contact-form .input-box input,
+    .contact-form .input-box textarea{
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 2px solid #333;
+        outline: none;
+        resize: none;
+    }
+
+    .contact-form .input-box span {
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        pointer-events: none;
+        transition: 0.5s;
+        color: #666;
+    }
+
+    .contact-form .input-box input:focus ~ span,
+    .contact-form .input-box textarea:focus ~ span{
+        color: #e91e63;
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+
+    .contact-form .input-box input[type="submit"]
+    {
+        width: 100%;
+        background: #00bcd4;
+        color: #FFF;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+        border: 1px solid #00bcd4;
+        transition: 0.5s;
+    }
+
+    .contact-form .input-box input[type="submit"]:hover
+    {
+        background: #FFF;
+        color: #00bcd4;
+    }
+
+    @media (max-width: 991px) {
+        section {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .row {
+            flex-direction: column;
+        }
+
+        .contact-info {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+
+        .contact-form {
+            width: 100%;
+        }
+    }
+</style>
+<body>
+<section>
+
+    <div class="section-header">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Contact-section on a website that provides information about a company, organization, or individual. It’s an opportunity to tell your brand’s story, share your vision or mission, introduce team members, and outline your history and achievements. This is where you build trustand credibility with customer</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="contact-info">
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+
+                    <div class="contact-info-content">
+                        <h4>Address</h4>
+                        <p>GOMTI NAGAR<br/> SECTOR-3 LUCKNOW ,UTTAR-PRADESH,INDIA <br/>227202</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+
+                    <div class="contact-info-content">
+                        <h4>Phone</h4>
+                        <p>9664572321</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <div class="contact-info-content">
+                        <h4>Email</h4>
+                        <p>VISHESHK.P2GMAIL.COM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="" id="contact-form">
+                    <h2>Send Message</h2>
+                    <div class="input-box">
+                        <input type="text" required="true" name="">
+                        <span>Full Name</span>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="email" required="true" name="">
+                        <span>Email</span>
+                    </div>
+
+                    <div class="input-box">
+                        <textarea required="true" name=""></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="submit" value="Send" name="">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+</body>
+</html>
